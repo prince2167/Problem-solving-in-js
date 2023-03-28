@@ -3,10 +3,11 @@
 // Try to do it without .includes
 
 const stringChecker = (str, char) => {
+  let value = char.toLowerCase();
   for (let i = 0; i < str.length; i++) {
-    str.charAt[i] = char.toLowerCase();
-    return console.log("includes");
+    if (str[i] === value) console.log("includes");
+    else console.log("not includes");
   }
 };
 
-stringChecker("lokesh", "O");
+stringChecker("prince", "i");
