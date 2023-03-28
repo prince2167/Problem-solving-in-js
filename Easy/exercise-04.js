@@ -1,4 +1,4 @@
-// write a function that takes any numbers of arguments of type number and returns the sum of all arguments
+// write  function that takes any numbers of arguments of type number and returns the sum of all arguments
 const sumOfArguments = (...args) => {
   let sum = 0;
 
