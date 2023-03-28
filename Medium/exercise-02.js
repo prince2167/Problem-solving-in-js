@@ -1,4 +1,4 @@
-// write a function which takes a string and a letter now show the number of occurrence of the letter in the string
+// write a  function which takes a string and a letter now show the number of occurrence of the letter in the string
 
 const letterOccurance = (str, letter) => {
   let occurance = 0;
