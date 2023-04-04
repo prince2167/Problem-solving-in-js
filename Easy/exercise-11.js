@@ -1,4 +1,4 @@
-// 3. Write an ES6 function to reverse a string in JavaScript without using in-built methods.
+//  Write an ES6 function to reverse a string in JavaScript without using in-built methods.
 
  const reverseString = (str) => {
    
