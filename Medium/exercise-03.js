@@ -2,6 +2,7 @@
 
 const longestWord = (string) => {
   let str = string.split(" ");
+
   let longest = 0;
   let word = null;
   for (let i = 0; i < str.length - 1; i++) {
