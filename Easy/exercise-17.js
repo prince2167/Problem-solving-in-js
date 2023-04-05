@@ -1,10 +1,10 @@
 // Create a function which takes a string and capitalize its first char
 
-const capitalFirstChar = (str) => {
-  let string = "";
-  string = str[0].toUpperCase() + str.slice(1);
-
-  return string;
+const capitalFirstString = (str) => {
+  let string = str.split(" ");
+  let words = string.map((word) => word[0].toUpperCase() + word.slice(1));
+  let result = words.join(" ");
+  return result;
 };
 
-console.log(capitalFirstChar("prince"));
+console.log(capitalFirstString("hey this is prince"));
